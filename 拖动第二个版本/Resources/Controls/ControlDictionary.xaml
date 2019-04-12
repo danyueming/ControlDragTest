@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:拖动第二个版本">
+    <s:Toolbox x:Key="FlowChartStencils" SnapsToDevicePixels="True"
+             ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+        <ItemsControl.Items>
+            <s:ImageButton x:Name="testbtn1" Content="测试1" Width="30" Height="30"></s:ImageButton>
+            <s:ImageButton x:Name="testbtn2" Content="测试1" Width="30" Height="30"></s:ImageButton>
+        </ItemsControl.Items>
+    </s:Toolbox>
+
+</ResourceDictionary>
